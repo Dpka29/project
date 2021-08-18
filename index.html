@@ -1,0 +1,161 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+  <img src="logo.png" height="80" width="280" align="center">
+  <a href="index.html" style="color: rgb(235, 134, 2);text-decoration: none;"><-Home</a>
+
+  <div class="navbar">
+    <a href="">INDUSTRIES</a>
+    <a href="">SOLUTION</a>
+    <a href="">INVESTORS</a><a href="">SUPPORT</a>
+    <div class="dropdown">
+      <button class="dropbtn">ABOUT
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">CAREER-FAQ</a>
+        <a href="#">COMPANY</a>
+        <a href="#">PUBLIC RELATIONS</a>
+      </div>
+    </div>
+    
+    <input type="text" placeholder="Search.." style="margin-top: 15;
+     margin-left: 590px;
+     width: 330;
+     height: 33;">
+  </div>
+  <div style="display: flex;">
+    <form style="margin-top: 20px;" method="GET" id="hostform">
+      <div>
+        <div style="text-align: center;"><b><h3> JOB REGISTRATION FORM</h3></b></div><BR><br>
+        <label for="name">Name:</label>
+        <input style="color: black;width: 300px;" type="text" name="name" id="name" placeholder="Full name" required >
+        <br><br>
+        <label for="dob">Date of Birth:</label>
+        <input style="color: black;" type="date" name="dob" id="dob" max="2001-12-31" required>
+        <br><br>
+        <p>Sex:</p>
+        <label class="male" for="Male">Male</label>
+        <input type="radio" name="sex" id="Male" value="male">
+        <label class="female" for="female">Female</label>
+        <input type="radio" name="sex" id="female" value="female">
+        <label class="other" for="other">Other</label>
+        <input type="radio" name="sex" id="other" value="Other">
+        <br><br>
+        <label for="place">Area of intrest:</label>
+        <select name="place" id="place" required>
+          <option value="Flat">HR Management</option>
+          <option value="House">Account Manager</option>
+          <option value="Secondary unit">Sales</option>
+          <option value="Unique place">Team Leader</option>
+          <option value="Bed and breakfast">Client Handler</option>
+          <option value="Botique hotel">Executive</option>
+        </select><br><br>
+        <label for="add">Address:</label>
+        <textarea rows="5" cols="36" name="add" id="add" form="hostform" required></textarea><br><br>
+
+        <label for="number">Phone: </label>
+        <input style="color: black;" type="tel" name="number" id="number" placeholder="+91-ph number" required><br><br>
+        <label for="email">Email:</label>
+        <input style="color: black;" type="email" name="email" id="email" required><br><br>
+        <label for="pic">Attach Resume:</label>
+        <input type="file" id="file" name="file"><br><br>
+        <label for="cv letter">CV Letter:</label>
+        <textarea rows="8" cols="60" name="add" id="add" form="hostform" required></textarea><br><br>
+        <span style="padding-inline:180px"><button
+          style="font-family: 'Average Sans';color: rgb(252, 246, 246);padding: 7px 25px;background-color: rgb(4, 56, 124);cursor:pointer;"
+          type="submit">Submit</button></span>
+      </div>
+    </form>
+    
+    <div style="margin-right: 50px;">
+      <h1>CAREER-FAQ</h1>
+      <hr style="width: 938px;border-bottom: 4px solid rgb(109, 107, 107);margin-left: -2px;"><br>
+      <div style="font-size: 16px; background-color:rgb(162, 196, 247);padding: 15px;border-radius: 5px;padding-top: 20px;">
+        <b style="color: rgb(4, 4, 68);">Why choose Trimble?</b>
+        <p style="color: black;"> There are many excellent reasons to consider joining the Trimble team. We offer
+          diverse working opportunities<br>
+          around the world. We have a tenured leadership team that understands for the company to continue to expand,
+          we<br>
+          need to retain our employees and help them grow their careers. We provide a challenging work environment
+          and<br>
+          exceptional benefits but also develop career paths and help employees learn and grow by strategically
+          moving<br>
+          individuals across different business segments. With an entrepreneurial spirit that flavors the day-to-day<br>
+          business activities, there are a number of directions your career path could go here at Trimble. Visit our
+          open<br>
+          job opportunities to explore the possibilities to navigate your way to your future career.</p>
+      </div><br>
+      <div style="font-size: 16px; background-color:rgb(162, 196, 247);padding: 20px;border-radius: 5px;">
+        <b style="color: rgb(4, 4, 68);">How do I apply for a job?</b>
+        <p style="color: black;"> Have a look at availabilities on our Job Opportunities page. All current open positions within
+           the company are posted<br> on this page. Make sure to check this site often as we update our job opportunities frequently.</p>
+      </div><br>
+      <div style="font-size: 16px; background-color:rgb(162, 196, 247);padding: 15px;border-radius: 5px;">
+        <b style="color:rgb(4, 4, 68);" >Can I apply to more than one position?</b>
+        <p style="color: black;"> Yes, but please remember to apply only for positions that fit your experience level.<br>
+           We will disregard resumes when the candidate is unqualified for the position.</p>
+      </div><br>
+      <div style="font-size: 16px; background-color:rgb(162, 196, 247);padding: 15px;border-radius: 5px;">
+        <b style="color: rgb(4, 4, 68);">How can we prove to you that we can be successful<br> finding candidates?</b>
+        <p style="color: black;"> This is a tough one. We understand your desire to work with us;<br> however, we are inundated with inquiries. Please watch this space and we will let you know <br>when our list is up for review.
+
+          Alternatively, you can always fill out our Recruiting Partner Application form and <br>email your information to Trimble_Staffing@trimble.com.</p>
+      </div><br>
+    </div>
+  </div>
+
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+      <img src="logo.png">
+
+
+      <p class="footer-links">
+        <a href="#">Home</a>
+        |
+        <a href="#">Blog</a>
+        |
+        <a href="#">About</a>
+        |
+        <a href="#">Contact</a>
+      </p>
+
+      <p class="footer-company-name">© 2021 Trimble Learning Solutions Pvt. Ltd.</p>
+    </div>
+
+    <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Trimble Inc.<br>
+            935 Stewart Drive<br>
+            Sunnyvale, CA 94085<br>
+            Attn: Public Relations</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+91 9632587412</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:deepikamunirasu@gmail.com">deepikamunirasu@gmail.com</a></p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span>About the company</span>
+        We offer training and skill building courses across Technology, Design, Management, Science and Humanities.
+      </p>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
